@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Food</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts     -->
+
+<section class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-utensils"></i> اسر منتجه </a>
+
+   <nav class="navbar">
+      <a href="#home">الصفحه الرئيسيه</a>
+      <a href="#about">نبذه عنا</a>
+      <a href="#food">المأكولات</a>
+      <a href="#gallery">معرض الطعام</a>
+      <a href="#menu">قائمه الاسعار</a>
+      <a href="#log"> تسجيل دخول </a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <span>طعام رائع</span>
+               <h3>طبخ لذيذ</h3>
+               <a href="#" class="btn">ابدا الان </a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <span> طعام رائع</span>
+               <h3>طبخ لذيذ</h3>
+               <a href="#" class="btn">ابدا الان </a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <span>طعام رائع </span>
+               <h3>طبخ لذيذ </h3>
+               <a href="#" class="btn">ابدا الان </a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <div class="image">
+      <img src="images/about-img.png" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="title">مرحبا بكم في مطعمنا</h3>
+      <p>مطعمنا يرحب بكم ,اهلا بكم جميعا في مطعمنا سنكون سعداء بكونكم هنا وانتم ايضا ، اهلا بكم </p>
+      <a href="#" class="btn">اقرا اكثر </a>
+      <div class="icons-container">
+         <div class="icons">
+            <img src="images/about-icon-1.png" alt="">
+            <h3>مقبلات</h3>
+         </div>
+         <div class="icons">
+            <img src="images/about-icon-2.png" alt="">
+            <h3>حلويات</h3>
+         </div>
+         <div class="icons">
+            <img src="images/about-icon-3.png" alt="">
+            <h3>معجنات</h3>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+
+<!-- food section starts  -->
+
+<section class="food" id="food">
+
+   <div class="heading">  
+      <span>أطباق شعبية</span>
+      <h3>طعامنا اللذيذ</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" data-name="food-1">
+            <img src="images/food-img-1.png" alt="">
+            <h3>سوشي</h3>
+            <div class="price">$49.99</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-2">
+            <img src="images/food-img-2.png" alt="">
+            <h3>فطور بيتي</h3>
+            <div class="price">$59.99</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-3">
+            <img src="images/food-img-3.png" alt="">
+            <h3>دبابيس فراخ</h3>
+            <div class="price">$80</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-4">
+            <img src="images/food-img-4.png" alt="">
+            <h3>سمك سالمون</h3>
+            <div class="price">$200</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-5">
+            <img src="images/food-img-5.png" alt="">
+            <h3>لحم</h3>
+            <div class="price">$49.99</div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+
+<!-- food preview section starts  -->
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="images/food-img-1.png" alt="">
+      <h3>سوشي</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>     93 سعراً حرارياً
+        <br/> 76.35 غراما من الماء
+        <br/>  18.42 غراما من الكربوهيدرات
+        <br/>  0.67 غرام من الدهون
+        <br/>   1 غرام من الألياف
+        <br/>  2.13 غرام من السكريات
+        <br/>  6 ميلليغرامات من الكالسيوم
+      </p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">شراء الان</a>
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+      <img src="images/food-img-2.png" alt="">
+      <h3>فطور بيتي</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>
+         13 ميلليغراما من الماغنسيوم
+         <br/> 60 ميلليغراما من الفوسفور
+         <br/> 47 ميلليغراما من البوتاسيوم
+         <br/> 429 ميلليغراما من الصوديوم
+         <br/> 0.38 ميلليغرام من الزنك
+         <br/> 4 ميكروغرامات من فيتامين أ
+      </p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">شراء الان</a>
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+      <img src="images/food-img-3.png" alt="">
+      <h3>دبابيس فراخ</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>
+         0.02 ميكروغرام من فيتامين ب1
+         <br/> 0.03 ميكروغرام من فيتامين ب2
+         <br/> 0.05 ميكروغرام من فيتامين ب6
+         <br/> 5 ميكروغرامات من فيتامين ب9 (حمض الفوليك)
+         <br/> 0.1 ميكروغرام من فيتامين ب12
+      </p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">شراء الان</a>
+   </div>
+
+   <div class="food-preview" data-target="food-4">
+      <img src="images/food-img-4.png" alt="">
+      <h3>سمك سالمون</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>
+         13 ميلليغراما من الماغنسيوم
+         <br/> 60 ميلليغراما من الفوسفور
+         <br/> 47 ميلليغراما من البوتاسيوم
+         <br/> 429 ميلليغراما من الصوديوم
+         <br/> 0.38 ميلليغرام من الزنك
+         <br/> 4 ميكروغرامات من فيتامين أ
+      </p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">شراء الان</a>
+   </div>
+
+   <div class="food-preview" data-target="food-5">
+      <img src="images/food-img-5.png" alt="">
+      <h3>لحم</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>
+         93 سعراً حرارياً
+         <br/> 76.35 غراما من الماء
+         <br/> 18.42 غراما من الكربوهيدرات
+         <br/> 0.67 غرام من الدهون
+         <br/> 1 غرام من الألياف
+         <br/> 2.13 غرام من السكريات
+         <br/> 6 ميلليغرامات من الكالسيوم
+         <br/> 0.22 ميلليغرام من الحديد
+         <br/> 13 ميلليغراما من الماغنسيوم
+         <br/> 60 ميلليغراما من الفوسفور
+
+      </p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">شراء الان</a>
+   </div>
+
+</section>
+
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+   <div class="heading">
+      <span>معرضنا</span>
+      <h3>صور الماكولات</h3>
+   </div>
+
+   <div class="gallery-container">
+
+      <a href="images/food-galler-img-1.jpg" class="box">
+         <img src="images/food-galler-img-1.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-2.jpg" class="box">
+         <img src="images/food-galler-img-2.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-3.jpg" class="box">
+         <img src="images/food-galler-img-3.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-4.jpg" class="box">
+         <img src="images/food-galler-img-4.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/food-galler-img-5.jpg" class="box">
+         <img src="images/food-galler-img-5.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-6.jpg" class="box">
+         <img src="images/food-galler-img-6.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+   </div>
+
+</section>
+
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+   <div class="heading">
+      <span>القائمه</span>
+      <h3>قائمه الاسعار</h3>
+   </div>
+
+   <div class="swiper menu-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="box-container">
+               <div class="box">
+
+                  <div class="info">
+                     <h3>سوشي</h3>
+                     <p>السوشي.. الطبق الياباني الأكثر شهرة والأوسع انتشارًا خارج اليابان، وفي السنوات الأخيرة، امتدت شهرته ليصبح أحد أكثر الأطباق طلبًا</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>لحم</h3>
+                     <p>اللحم عبارة عن نسيج حيواني يشكل أحد أغذية الإنسان، وفي معظم الأحيان يقصد به النسيج العضلي الحيواني والدهن المتعلق به،</p>
+                  </div>
+                  <div class="price">$99</div>
+               </div>
+
+               <div class="box">
+                  <div class="info">
+                     <h3>لحم</h3>
+                     <p>اللحم عبارة عن نسيج حيواني يشكل أحد أغذية الإنسان، وفي معظم الأحيان يقصد به النسيج العضلي الحيواني والدهن المتعلق به،</p>
+                  </div>
+                  <div class="price">$99</div>
+               </div>
+
+               <div class="box">
+                  <div class="info">
+                     <h3>لحم</h3>
+                     <p>اللحم عبارة عن نسيج حيواني يشكل أحد أغذية الإنسان، وفي معظم الأحيان يقصد به النسيج العضلي الحيواني والدهن المتعلق به،</p>
+                  </div>
+                  <div class="price">$99</div>
+               </div>
+
+               <div class="box">
+                  <div class="info">
+                     <h3>لحم</h3>
+                     <p>اللحم عبارة عن نسيج حيواني يشكل أحد أغذية الإنسان، وفي معظم الأحيان يقصد به النسيج العضلي الحيواني والدهن المتعلق به،</p>
+                  </div>
+                  <div class="price">$99</div>
+               </div>
+
+               <div class="box">
+                  <div class="info">
+                     <h3>لحم</h3>
+                     <p>اللحم عبارة عن نسيج حيواني يشكل أحد أغذية الإنسان، وفي معظم الأحيان يقصد به النسيج العضلي الحيواني والدهن المتعلق به،</p>
+                  </div>
+                  <div class="price">$99</div>
+               </div>
+
+               
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="box-container">
+               
+               <div class="box">
+                  <div class="info">
+                     <h3>لحم</h3>
+                     <p>اللحم عبارة عن نسيج حيواني يشكل أحد أغذية الإنسان، وفي معظم الأحيان يقصد به النسيج العضلي الحيواني والدهن المتعلق به،</p>
+                  </div>
+                  <div class="price">$99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>لحم</h3>
+                     <p>اللحم عبارة عن نسيج حيواني يشكل أحد أغذية الإنسان، وفي معظم الأحيان يقصد به النسيج العضلي الحيواني والدهن المتعلق به،</p>
+                  </div>
+                  <div class="price">$99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>لحم</h3>
+                     <p>اللحم عبارة عن نسيج حيواني يشكل أحد أغذية الإنسان، وفي معظم الأحيان يقصد به النسيج العضلي الحيواني والدهن المتعلق به،</p>
+                  </div>
+                  <div class="price">$99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>لحم</h3>
+                     <p>اللحم عبارة عن نسيج حيواني يشكل أحد أغذية الإنسان، وفي معظم الأحيان يقصد به النسيج العضلي الحيواني والدهن المتعلق به،</p>
+                  </div>
+                  <div class="price">$99</div>
+               </div>
+            </div>
+         </div>
+
+      
+     
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+
+
+
+
+<div class="log">
+
+<ul class="nav" id="log">
+   <li onclick="showLogin()">تسجيل الدخول</li>
+   <li onclick="showSignup()">انشاء حساب</li>
+   <li onclick="showForgotPassword()">نسيت كلمه السر؟</li>
+   <li onclick="showSubscribe()">اشترك</li>
+   <li onclick="showContactUs()">تواصل معنا</li>
+ </ul>
+ <div class="wrapper">
+   <div class="rec-prism">
+     <div class="face face-top">
+       <div class="content">
+         <h2>اشترك</h2>
+         <small>أدخل بريدك الإلكتروني حتى نتمكن من إرسال آخر التحديثات إليك!</small>
+         <form onsubmit="event.preventDefault()">
+           <div class="field-wrapper">
+             <input type="text" name="email" placeholder="email">
+             <label>البريد الاكتروني</label>
+           </div>
+           <div class="field-wrapper">
+             <input type="submit" onclick="showThankYou()">
+           </div>
+         </form>
+       </div>
+     </div>
+     <div class="face face-front">
+       <div class="content">
+         <h2>تسجيل دخول</h2>
+         <form onsubmit="event.preventDefault()">
+           <div class="field-wrapper">
+             <input type="text" name="username" placeholder="username">
+             <label>اسم المستخدم</label>
+           </div>
+           <div class="field-wrapper">
+             <input type="password" name="password" placeholder="password" autocomplete="new-password">
+             <label>كلمه السر</label>
+           </div>
+           <div class="field-wrapper">
+             <input type="submit" onclick="showThankYou()">
+           </div>
+           <span class="psw" onclick="showForgotPassword()">نسيت كلمه المرور ؟   </span>
+           <span class="signup" onclick="showSignup()">لست مستخدم؟ اشتراك</span>
+         </form>
+       </div>
+     </div>
+     <div class="face face-back">
+       <div class="content">
+         <h2>نسيت كلمه السر ؟</h2>
+         <small>أدخل بريدك الإلكتروني حتى نتمكن من إرسال رابط إعادة تعيين لكلمة المرور الخاصة بك</small>
+         <form onsubmit="event.preventDefault()">
+           <div class="field-wrapper">
+             <input type="text" name="email" placeholder="email">
+             <label>البريد الاكتروني</label>
+           </div>
+           <div class="field-wrapper">
+             <input type="submit" onclick="showThankYou()">
+           </div>
+         </form>
+       </div>
+     </div>
+     <div class="face face-right">
+       <div class="content">
+         <h2>انشاء حساب</h2>
+         <form onsubmit="event.preventDefault()">
+           <div class="field-wrapper">
+             <input type="text" name="email" placeholder="email">
+             <label>البريد الاكتروني</label>
+           </div>
+           <div class="field-wrapper">
+             <input type="password" name="password" placeholder="password" autocomplete="new-password">
+             <label>كلمه المرور</label>
+           </div>
+           <div class="field-wrapper">
+             <input type="password" name="password2" placeholder="password" autocomplete="new-password">
+             <label>اعاده كلمه المرور</label>
+           </div>
+           <div class="field-wrapper">
+             <input type="submit" onclick="showThankYou()">
+           </div>
+           <span class="singin" onclick="showLogin()">بالفعل مستخدم؟ تسجيل الدخول</span>
+         </form>
+       </div>
+     </div>
+     <div class="face face-left">
+       <div class="content">
+         <h2>تواصل معنا</h2>
+         <form onsubmit="event.preventDefault()">
+           <div class="field-wrapper">
+             <input type="text" name="name" placeholder="name">
+             <label>الاسم</label>
+           </div>
+           <div class="field-wrapper">
+             <input type="text" name="email" placeholder="email">
+             <label>البريد الاكتروني</label>
+           </div>
+           <div class="field-wrapper">
+             <textarea placeholder="your message"></textarea>
+             <label>ادخل رسالتك</label>
+           </div>
+           <div class="field-wrapper">
+             <input type="submit" onclick="showThankYou()">
+           </div>
+         </form>
+       </div>
+     </div>
+     <div class="face face-bottom">
+       <div class="content">
+         <div class="thank-you-msg">
+            شكرا لك !
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+
+</div>
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+         <h3>ساعات العمل</h3>
+         <p>من الساعة 07:00 صباحًا حتى 10:00 مساءً</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+         <h3>رقم الجوال</h3>
+         <p>508000777</p>
+         <p>508000777</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+         <h3>البريد الاكتروني</h3>
+         <p>mmmmmmm@gmail.com</p>
+         <p>hhhhhhh@gmail.com</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+         <h3>العنوان</h3>
+         <p>السعوديه_ حي نجران</p>
+      </div>
+
+   </div>
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+   </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
